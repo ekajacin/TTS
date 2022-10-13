@@ -43,13 +43,23 @@ td {
 	height: 40px;
     margin: 0.5px;
 }
+td p{
+    z-index: 3;
 
-td input {
-	width: 40px;
+    text-align: left;
+}
+.whtblock{
+    width: 40px;
 	height: 40px;
+    background-color: white;
+    color: black;
+}
+td span {
+    margin-top: 50px;
 	text-align: center;
 	font-size: 14px;
 	text-transform: uppercase;
+    /* border: 2px solid black; */
 }
 
 .block {
@@ -73,4 +83,5 @@ td p{
     width: 1170px;
     text-align: center;
     margin: 0 auto;
+    /* border: 2px solid black; */
 }
