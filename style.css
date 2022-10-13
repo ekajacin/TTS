@@ -1,0 +1,76 @@
+*{
+    font-family: "Lucida Grande";
+    box-sizing: border-box;
+   }
+   
+a{
+    text-decoration: none;
+    padding: 3px;
+   }
+.upper{
+    height: 400px;
+
+}
+.deskrip{
+    float: left;
+    color: black;
+    padding-left: 20px;
+    display: grid;
+    width: 50%;
+    background-color: white;
+}
+.in{
+margin-left: 20px;
+/* border: 1px solid black; */
+}
+.in p{
+    margin: 5px 0px;
+    font-weight: 100;
+}
+.teka{
+    float: right;
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+table {
+	text-align: center;
+    border: 1px solid black;
+}
+
+td {
+	width: 8.3% ;
+	height: 40px;
+    margin: 0.5px;
+}
+
+td input {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.block {
+	background-color: #000;
+}
+
+td p{
+    text-transform: lowercase;
+    float: left;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.bottom{
+    display: inline-block;
+    border-top: 1px solid grey;
+    width: 100%;
+
+}
+.cont {
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+}
