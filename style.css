@@ -32,30 +32,15 @@ margin-left: 20px;
     width: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-table {
-	text-align: center;
-    border: 1px solid black;
-}
-
-td {
-	width: 8.3% ;
-	height: 40px;
-    margin: 0.5px;
+    /* justify-content: space-around; */
 }
 td p{
     z-index: 3;
-
     text-align: left;
 }
-.whtblock{
-    width: 40px;
-	height: 40px;
-    background-color: white;
-    color: black;
-}
-td span {
-    margin-top: 50px;
+.pth span {
+    /* margin-top: 40px;
+    margin-left: 10px; */
 	text-align: center;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -66,12 +51,13 @@ td span {
 	background-color: #000;
 }
 
-td p{
+.pth p{
     text-transform: lowercase;
     float: left;
     padding: 0;
     margin: 0;
     background-color: white;
+    font-size: 10px;
 }
 .bottom{
     display: inline-block;
@@ -85,4 +71,36 @@ td p{
     text-align: center;
     margin: 0 auto;
     /* border: 2px solid black; */
+}
+
+
+.table{
+    width: auto;
+    height: auto;
+    /* border: 2px solid black; */
+    display: block;
+}
+.baris{
+    /* display: inline; */
+    /* border: 2px solid black; */
+    
+    float: left;
+}
+.sell{
+    margin: 0;
+    display: inline-block;
+    border: 1px solid rgb(125, 124, 124);
+    float: left;
+    padding: 3px;
+}
+.pth{
+    width: 30px;
+	height: 30px;
+    background-color: white;
+    color: black;
+}
+.htm {
+    width: 30px;
+	height: 30px;
+    background-color: #000;
 }
