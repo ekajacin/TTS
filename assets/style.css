@@ -1,0 +1,104 @@
+*{
+    font-family: "Lucida Grande";
+    box-sizing: border-box;
+   }
+   
+a{
+    text-decoration: none;
+    padding: 3px;
+   }
+.upper{
+    height: 400px;
+
+}
+.deskrip{
+    float: left;
+    color: black;
+    padding-left: 20px;
+    width: 50%;
+    background-color: white;
+}
+.in{
+margin-left: 20px;
+/* border: 1px solid black; */
+margin-top: 12px;
+}
+.in p{
+    margin: 5px 0px;
+    font-weight: 100;
+}
+.teka{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* justify-content: space-around; */
+}
+/* td p{
+    z-index: 3;
+    text-align: left;
+} */
+.pth span {
+    /* margin-top: 40px;
+    margin-left: 10px; */
+	/* text-align: center; */
+	font-size: 14px;
+	text-transform: uppercase;
+    /* border: 2px solid black; */
+}
+
+
+.pth p{
+    text-transform: lowercase;
+    float: left;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-size: 10px;
+}
+.bottom{
+    display: inline-block;
+    border-top: 1px solid grey;
+    width: 100%;
+    height: 200px;
+
+}
+.cont {
+    width: 1170px;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+
+.table{
+    width: auto;
+    height: auto;
+    /* border: 2px solid black; */
+    display: block;
+}
+.baris{
+    /* display: inline; */
+    /* border: 2px solid black; */
+    
+    float: left;
+}
+.sell{
+    margin: 0;
+    /* display: inline-block; */
+    border: 1px solid rgb(125, 124, 124);
+    float: left;
+    padding: 3px;
+}
+.pth{
+    width: 30px;
+	height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.htm {
+    width: 30px;
+	height: 30px;
+    background-color: #000;
+}
